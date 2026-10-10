@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tajudeen Lateef's data analytics portfolio featuring Excel, SQL, Power BI, transport and operations analytics.">
+  <title>Tajudeen Lateef | Data Analyst Portfolio</title>
+  <style>
+    :root {
+      --navy: #0b1f3a;
+      --blue: #007bff;
+      --light: #f4f7fb;
+      --text: #263449;
+      --muted: #65748b;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--light);
+      line-height: 1.7;
+    }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .brand { font-weight: bold; font-size: 1.1rem; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+    nav a { color: var(--white); font-size: 0.93rem; }
+
+    .hero {
+      padding: 90px 7%;
+      background: linear-gradient(135deg, #0b1f3a, #123d70);
+      color: var(--white);
+    }
+
+    .hero-content { max-width: 850px; margin: auto; }
+    .eyebrow {
+      color: #91c5ff;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+    }
+
+    h1 { font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.15; margin: 15px 0; }
+    .hero p { max-width: 680px; color: #e0e9f5; font-size: 1.08rem; }
+
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 7px;
+      font-weight: bold;
+      background: var(--blue);
+      color: white;
+    }
+
+    .button.secondary { background: transparent; border: 1px solid #b8d8ff; }
+    .button:hover { text-decoration: none; opacity: 0.9; }
+
+    section { padding: 65px 7%; scroll-margin-top: 20px; }
+    .container { max-width: 1100px; margin: auto; }
+    .section-title { color: var(--navy); font-size: 2rem; margin: 0 0 12px; }
+    .intro { color: var(--muted); max-width: 760px; margin-bottom: 28px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 24px;
+      border: 1px solid #e1e8f0;
+      border-radius: 12px;
+      box-shadow: 0 5px 18px rgba(11, 31, 58, 0.04);
+    }
+
+    .card h3 { color: var(--navy); margin-top: 0; }
+    .tag {
+      display: inline-block;
+      background: #e8f2ff;
+      color: #0757a6;
+      border-radius: 5px;
+      padding: 4px 9px;
+      font-size: 0.8rem;
+      margin: 3px 3px 3px 0;
+    }
+
+    .project-status { font-size: 0.85rem; color: var(--muted); font-weight: bold; }
+    .contact { background: #eaf1f9; }
+    footer { background: var(--navy); color: #dbe7f5; text-align: center; padding: 24px; }
+    footer a { color: #91c5ff; }
+
+    @media (max-width: 600px) {
+      header { padding: 18px 5%; }
+      .hero { padding: 65px 5%; }
+      section { padding: 48px 5%; }
+      nav { gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Tajudeen Lateef</div>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">Data Analytics · Business Intelligence</div>
+        <h1>Turning Data into Insights. Insights into Decisions.</h1>
+        <p>
+          I'm Tajudeen Lateef, an aspiring data analyst with an academic
+          background in Transport Planning and Management. I'm developing
+          practical skills in data analysis, reporting, visualization,
+          and operations analytics.
+        </p>
+        <div class="buttons">
+          <a class="button" href="#projects">Explore My Projects</a>
+          <a class="button secondary" href="https://github.com/follateef"
+             target="_blank" rel="noopener noreferrer">My GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="intro">
+          I am building my career in data analytics by combining analytical
+          thinking with my background in transport and operations. My goal
+          is to turn raw data into clear reports, useful dashboards, and
+          evidence-based recommendations that help businesses make decisions.
+        </p>
+        <div class="card">
+          <h3>Education</h3>
+          <p>
+            Higher National Diploma (HND), Transport Planning and Management<br>
+            The Oke-Ogun Polytechnic, Saki
+          </p>
+          <p>
+            I am building a portfolio of practical projects to demonstrate
+            my skills and document my learning progress.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Tools & Skills</h2>
+        <p class="intro">
+          My analytics toolkit and the skills I am developing through
+          practical exercises and projects.
+        </p>
+        <div class="grid">
+          <article class="card">
+            <h3>Microsoft Excel</h3>
+            <p>Data cleaning, formulas, pivot tables, and reporting.</p>
+            <span class="tag">Spreadsheets</span>
+            <span class="tag">Reporting</span>
+          </article>
+          <article class="card">
+            <h3>SQL</h3>
+            <p>Querying, filtering, joins, aggregation, and data analysis.</p>
+            <span class="tag">Queries</span>
+            <span class="tag">Data Analysis</span>
+          </article>
+          <article class="card">
+            <h3>Power BI</h3>
+            <p>Interactive dashboards, KPI tracking, and visualization.</p>
+            <span class="tag">Dashboards</span>
+            <span class="tag">KPIs</span>
+          </article>
+          <article class="card">
+            <h3>SPSS & GIS</h3>
+            <p>Statistical analysis and spatial data analysis.</p>
+            <span class="tag">Statistics</span>
+            <span class="tag">Mapping</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="intro">
+          These are my planned portfolio case studies. I will add verified
+          findings, screenshots, datasets, and code as each project develops.
+        </p>
+        <div class="grid">
+          <article class="card">
+            <p class="project-status">PLANNED</p>
+            <h3>Fleet Management Analytics</h3>
+            <p>
+              Explore vehicle utilization, fuel efficiency, maintenance
+              costs, downtime, and delivery performance using simulated data.
+            </p>
+            <span class="tag">Excel</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Power BI</span>
+          </article>
+          <article class="card">
+            <p class="project-status">PLANNED</p>
+            <h3>Sales Performance Analysis</h3>
+            <p>
+              Investigate sales trends, revenue, profit, and product
+              performance to support business decisions.
+            </p>
+            <span class="tag">Excel</span>
+            <span class="tag">Power BI</span>
+          </article>
+          <article class="card">
+            <p class="project-status">PLANNED</p>
+            <h3>Customer Analysis</h3>
+            <p>
+              Study purchasing patterns, repeat purchases, and customer
+              retention using a suitable practice dataset.
+            </p>
+            <span class="tag">SQL</span>
+            <span class="tag">Excel</span>
+          </article>
+          <article class="card">
+            <p class="project-status">PLANNED</p>
+            <h3>Transport Cost Analysis</h3>
+            <p>
+              Compare route costs, delivery efficiency, and operating
+              performance using transport data.
+            </p>
+            <span class="tag">Excel</span>
+            <span class="tag">SQL</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="intro">
+          I'm interested in entry-level data analyst opportunities,
+          collaborative projects, and opportunities to grow my skills.
+        </p>
+        <div class="buttons">
+          <a class="button" href="mailto:tajudinateef@gmail.com">Email Me</a>
+          <a class="button" href="https://github.com/follateef"
+             target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+          <a class="button" href="https://linkedin.com/in/tajudeen-lateef-3030961a9"
+             target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Tajudeen Lateef · Data Analytics Portfolio</p>
+    <p>Built with HTML and CSS · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
